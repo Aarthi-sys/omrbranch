@@ -35,7 +35,7 @@ public class BaseClass {
 
 		public static WebDriver driver;
 
-		public void getDriver(String browser) {
+		public void getDrivers(String browser) {
 
 			switch (browser) {
 			case "chrome":
